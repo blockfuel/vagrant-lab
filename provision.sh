@@ -37,11 +37,10 @@ curl -sL https://deb.nodesource.com/setup_12.x | bash -
 apt-get -y install nodejs
 
 
-# --- docker images ---
-docker pull ubuntu:latest
-docker pull ethereum/client-go:latest
-
-
 # --- pip ---
 apt-get -y install python3-pip
 pip3 install --upgrade pip
+
+
+# --- docker images ---
+docker pull ubuntu:latest
